@@ -1,0 +1,11 @@
+:root {
+    --color-primary: #1172c4;
+
+    --background: #e9e7e7;
+    /* MESSAGES */
+    --color-msg-left: #eceff1;
+    --color-msg-right: #579ffb;
+
+    --avatar-bot: url('../img/avatar.png');
+    --avatar-person: url('../img/person.png');
+  }

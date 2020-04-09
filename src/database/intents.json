@@ -1,0 +1,39 @@
+{
+    "intents": [
+        {
+            "tag": "salutation",
+            "message": "Olá, eu sou o botinho. em que posso ajudá-lo?",
+            "type": "button",
+            "actions": {
+                "payload": [
+                    {
+                        "label": "Olá",
+                        "value": "salutation"
+                    },
+                    {
+                        "label": "Feedback",
+                        "value": "feedback"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "feedback",
+            "message": "Deseja algo mais?",
+            "type": "button",
+            "actions": {
+                "payload": [
+                    {
+                        "label": "Sim",
+                        "value": "salutation"
+                    },
+                    {
+                        "label": "Não",
+                        "value": "salutation"
+                    }
+
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Electron</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/global.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+
+</head>
+
+<body>
+
+  <section class="msger">
+    <header class="msger-header-container">
+      <div class="msger-header">
+        <img src="./assets/img/avatar.png" alt="Avatar" class="avatar">
+        <div class="msger-header-bot-info">
+          <span id="bot-name" class="msger-bot-username"></span>
+          <span class="msger-bot-status">Online</span>
+        </div>
+      </div>
+      <div class="window-button">
+        <svg id="minimizeChat" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          aria-hidden="true" focusable="false" width="1.5em" height="1.5em"
+          style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+          preserveAspectRatio="xMidYMid meet" viewBox="0 0 524 797">
+          <path d="M0 737h524v60H0v-60z" fill="#fff" /></svg>
+        <svg id="closeChat" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          aria-hidden="true" focusable="false" width="1.5em" height="1.5em"
+          style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+          preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512">
+          <path
+            d="M289.94 256l95-95A24 24 0 0 0 351 127l-95 95l-95-95a24 24 0 0 0-34 34l95 95l-95 95a24 24 0 1 0 34 34l95-95l95 95a24 24 0 0 0 34-34z"
+            fill="#fff" /></svg>
+      </div>
+    </header>
+    <main class="msger-chat"></main>
+    <form id="form"></form>
+  </section>
+
+
+  <script src="./assets/js/index.js"></script>
+  <script src="./assets/js/interface.js"></script>
+</body>
+
+</html>
